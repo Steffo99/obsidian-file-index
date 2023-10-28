@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
+	"id": "steffo-file-index",
+	"name": "File Index",
+	"version": "0.1.0",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Create a metadata file about the files present in the Vault ",
+	"author": "Steffo",
+	"authorUrl": "https://www.steffo.eu",
+	"fundingUrl": "https://ko-fi.com/steffo",
 	"isDesktopOnly": false
 }
