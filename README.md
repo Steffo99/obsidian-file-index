@@ -1,6 +1,10 @@
 # Obsidian File Index
 
+## About
+
 This [Obsidian] plugin creates and keeps updated a `steffo-file-index.json` file at the root of your Vault, containing a list of all file paths and a map of all basenames to file paths.
+
+Useful to externally render Wikilinks with no knowledge of the file structure of the vault, for example in [Obsiview].
 
 ```json
 {
@@ -16,7 +20,21 @@ This [Obsidian] plugin creates and keeps updated a `steffo-file-index.json` file
 }
 ```
 
-Useful to externally render Wikilinks with no knowledge of the file structure of the vault, for example in [Obsiview].
+[Obsidian]: https://obsidian.md/
+[Obsiview]: https://github.com/Steffo99/obsiview
+
+## Ignore
+
+Files can be excluded by the index by adding a `steffo-file-index-ignore.json` file at the root of your Vault, containing a JSON array of regular expressions that will prevent matching files from being added to the list:
+
+```json
+[
+	"^Garas",
+	".*HelloWorld.*"
+]
+```
+
+## Known issues
 
 > [#WARNING]
 > 

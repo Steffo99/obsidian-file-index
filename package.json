@@ -8,7 +8,12 @@
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": ["obsidian", "file", "obsiview", "obsidian-plugin"],
+	"keywords": [
+		"obsidian",
+		"file",
+		"obsiview",
+		"obsidian-plugin"
+	],
 	"author": "Stefano Pigozzi <me@steffo.eu>",
 	"license": "MIT",
 	"devDependencies": {
