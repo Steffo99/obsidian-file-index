@@ -61,7 +61,9 @@ export default class SteffoFileIndexPlugin extends Plugin {
 			}
 
 			paths.push(file.path)
-			basenames[file.basename] = file.path
+
+			const basename = file.basename.toLocaleLowerCase()
+			basenames[basename] = file.path
 		}
 
 		paths.sort()
