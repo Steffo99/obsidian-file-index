@@ -63,6 +63,9 @@ export default class SteffoFileIndexPlugin extends Plugin {
 			paths.push(file.path)
 
 			const basename = file.basename.toLocaleLowerCase()
+			if(basenames.hasOwnProperty(basename)) {
+				console.warn("[SteffoFileIndexPlugin] Multiple files with the same basename detected:", basenames[basename], file.path)
+			}
 			basenames[basename] = file.path
 		}
 
