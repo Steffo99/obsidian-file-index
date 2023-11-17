@@ -1,6 +1,6 @@
 {
-	"name": "steffo-file-index",
-	"version": "2.0.0",
+	"name": "file-index",
+	"version": "3.0.0",
 	"description": "Obsidian plugin to create a metadata file about the files present in the Vault",
 	"main": "main.js",
 	"scripts": {
