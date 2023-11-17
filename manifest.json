@@ -1,7 +1,7 @@
 {
 	"id": "file-index",
 	"name": "File Index",
-	"version": "3.0.2",
+	"version": "3.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Create a metadata file about the files present in the Vault",
 	"author": "Steffo",
