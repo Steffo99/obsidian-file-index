@@ -62,7 +62,14 @@ export default class FileIndexPlugin extends Plugin {
 
 			paths.push(file.path)
 
-			const basename = file.basename.toLocaleLowerCase()
+			let basename
+			if(file.extension === "md") {
+				basename = file.basename.toLocaleLowerCase()
+			}
+			else {
+				basename = file.basename.toLocaleLowerCase() + "." + file.extension.toLocaleLowerCase()
+			}
+
 			if(basenames.hasOwnProperty(basename)) {
 				console.warn("[FileIndexPlugin] Multiple files with the same basename detected:", basenames[basename], file.path)
 			}
