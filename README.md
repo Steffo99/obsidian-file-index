@@ -36,6 +36,6 @@ Files can be excluded by the index by adding a `file-index-ignore.json` file at 
 
 ## Known issues
 
-> [#WARNING]
+> [!WARNING]
 > 
 > May have some trouble distinguishing between files with the same basename, but in different folders.
