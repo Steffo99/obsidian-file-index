@@ -1,4 +1,10 @@
+<div align="center">
+
 # Obsidian File Index
+
+Obsidian plugin to create a metadata file about the files present in the Vault
+
+</div>
 
 ## About
 
