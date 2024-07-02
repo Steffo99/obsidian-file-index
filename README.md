@@ -10,7 +10,7 @@ Obsidian plugin to create a metadata file about the files present in the Vault
 
 This [Obsidian] plugin creates and keeps updated a `file-index.json` file at the root of your Vault, containing a list of all file paths and a map of all basenames to file paths.
 
-Useful to externally render Wikilinks with no knowledge of the file structure of the vault, for example in [Obsiview].
+Useful to externally render Wikilinks with no knowledge of the file structure of the vault, for example in [Glassflame].
 
 ```json
 {
@@ -27,7 +27,7 @@ Useful to externally render Wikilinks with no knowledge of the file structure of
 ```
 
 [Obsidian]: https://obsidian.md/
-[Obsiview]: https://github.com/Steffo99/obsiview
+[Glassflame]: https://glassflame.github.io/
 
 ## Ignore
 
